@@ -1,0 +1,16 @@
+.index {
+  background-image: url("./static/scp_049.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container a {
+  margin: 0 10px;
+}
