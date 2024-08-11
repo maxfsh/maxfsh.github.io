@@ -150,6 +150,7 @@ h2 {
     line-height: 1.22222222;
   }
 }
+
 h3 {
   font-size: 1.25rem;
   line-height: 1.25;
@@ -247,4 +248,25 @@ th {
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+}
+
+.img-shadow {
+  filter: drop-shadow( 0px 0px 2px rgba(255, 255, 255, 0.7));
+}
+
+.scp-logo {
+  width: 100%;
+  max-width: 256px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .scp-logo {
+    max-width: 192px;
+    height: auto;
+  }
 }
