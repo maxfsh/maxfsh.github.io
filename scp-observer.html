@@ -26,7 +26,7 @@
     <link rel="icon" href="./static/favicon.ico" />
   </head>
   <body>
-    <div class="navbar">
+    <nav class="navbar">
       <div class="navbar-left">
         <a href="https://getmyisland.com">
           <img
@@ -35,14 +35,26 @@
             height="48"
             alt="SCP Foundation Logo"
             class="img-shadow"
-        /></a>
+          />
+        </a>
       </div>
       <div class="navbar-right">
-        <a href="https://getmyisland.com/scp-observer">SCP: Observer</a>
-        <a href="https://getmyisland.com/scp-simulacrum">SCP: Simulacrum</a>
-        <a href="https://getmyisland.com/scp-simulacrum">Contact</a>
+        <div class="menu-icon img-shadow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="https://getmyisland.com/scp-observer">SCP: Observer</a>
+          </li>
+          <li>
+            <a href="https://getmyisland.com/scp-simulacrum">SCP: Simulacrum</a>
+          </li>
+          <li><a href="https://getmyisland.com/scp-simulacrum">Contact</a></li>
+        </ul>
       </div>
-    </div>
+    </nav>
     <div class="content scp_observer">
       <div class="inner-content">
         <div class="container">
@@ -91,5 +103,6 @@
         </div>
       </div>
     </div>
+    <script src="navbar.js"></script>
   </body>
 </html>
