@@ -5,6 +5,12 @@
   background-repeat: no-repeat;
 }
 
+@media (max-width: 900px) {
+  .index {
+    background-image: url("./static/scp_049_middle.webp");
+  }
+}
+
 .icon-container {
   display: flex;
   justify-content: center;
