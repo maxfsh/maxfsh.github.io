@@ -180,7 +180,7 @@ dl {
 
 .container {
   max-width: var(--max-width);
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: 0 1rem;
 }
 
