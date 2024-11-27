@@ -1,30 +1,4 @@
 :root {
-  --white: #fff;
-  --black: #000;
-
-  --accent: #fff;
-  --accent-hover: #fff;
-
-  --body-bg: var(--black);
-  --body-bg-inverse: var(--white);
-  --body-color: var(--white);
-  --body-color-inverse: var(--black);
-  --heading-color: var(--white);
-  --heading-color-inverse: var(--black);
-  --link-color: var(--accent);
-  --link-color-hover: var(--accent-hover);
-
-  --border-color: var(--body-bg);
-
-  --font-family-system-ui: -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", Arial, sans-serif;
-  --font-family-sans-serif: "Open Sans", --font-family-system-ui;
-  --font-family-serif: "Lora", Georgia, "Times New Roman", Times, serif;
-  --font-family-heading: "Rubik", --font-family-system-ui;
-  --font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
-
   --font-size-s: 12px;
   --font-size: 16px;
   --font-size-lg: 18px;
@@ -56,7 +30,6 @@ body {
 }
 
 html {
-  font-family: var(--font-family-system-ui);
   font-size: var(--font-size);
   line-height: 1.5;
   scroll-behavior: smooth;
@@ -70,34 +43,14 @@ html {
 }
 
 body {
-  color: var(--body-color);
-  background-color: var(--body-bg);
-}
-
-a {
-  color: var(--link-color);
-}
-
-a:hover,
-a:focus {
-  color: var(--link-color-hover);
-}
-
-@media (min-width: 768px) {
-  a {
-    text-decoration: none;
-  }
-
-  a:hover,
-  a:focus {
-    text-decoration: none;
-  }
+  color: #000;
+  background-color: #fff;
 }
 
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
+  margin: 0;
 }
 
 h1,
@@ -107,9 +60,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 1.25rem;
-  font-family: var(--font-family-heading);
   font-weight: 600;
-  color: var(--heading-color);
   text-rendering: optimizeLegibility;
 }
 
@@ -150,7 +101,6 @@ h2 {
     line-height: 1.22222222;
   }
 }
-
 h3 {
   font-size: 1.25rem;
   line-height: 1.25;
@@ -167,10 +117,6 @@ p {
   margin: 0 0 1rem;
 }
 
-strong {
-  color: var(--heading-color);
-}
-
 ul,
 ol,
 dl {
@@ -180,7 +126,7 @@ dl {
 
 .container {
   max-width: var(--max-width);
-  margin: 2rem auto;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 
@@ -209,64 +155,4 @@ dl {
 .inner-section h2,
 .inner-section h3 {
   margin-top: 0;
-}
-
-.inner-section a {
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
-}
-
-.inner-section a:hover {
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
-}
-
-figure {
-  margin: 2rem 0;
-}
-
-figcaption {
-  font-size: 80%;
-}
-
-table {
-  margin-bottom: 1rem;
-  width: 100%;
-  font-size: 85%;
-  border: 1px solid #e5e5e5;
-  border-collapse: collapse;
-}
-
-td,
-th {
-  padding: 0.25rem 0.5rem;
-  border: 1px solid #e5e5e5;
-}
-
-th {
-  text-align: left;
-}
-
-tbody tr:nth-child(odd) td,
-tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
-}
-
-.text-shadow {
-  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
-}
-
-.img-shadow {
-  filter: drop-shadow( 0px 0px 2px rgba(255, 255, 255, 0.7));
-}
-
-.scp-logo {
-  width: 100%;
-  max-width: 256px;
-  height: auto;
-}
-
-@media (max-width: 768px) {
-  .scp-logo {
-    max-width: 192px;
-    height: auto;
-  }
 }

@@ -1,0 +1,23 @@
+.footer {
+  padding: 3rem 0;
+}
+
+.footer p,
+.footer a {
+  margin: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+@media (max-width: 576px) {
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+}

@@ -1,1 +1,1 @@
-The repository for my personal website.
+# Repository for getmyisland.com
