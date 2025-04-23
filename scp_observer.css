@@ -28,7 +28,7 @@
 
 .inner-header h1 {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .inner-header a {
@@ -50,20 +50,4 @@
 
 .inner-header a:last-child {
   margin-right: 0;
-}
-
-.scp {
-  width: 80%;
-}
-
-@media (max-width: 992px) {
-  .scp {
-    width: 60%;
-  }
-}
-
-@media (max-width: 576px) {
-  .scp {
-    width: 80%;
-  }
 }
