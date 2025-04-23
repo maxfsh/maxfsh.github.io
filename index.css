@@ -24,12 +24,32 @@
   width: 20%;
 }
 
-.scroller {
+.footer {
   display: inline-block;
   position: absolute;
   bottom: 1.5rem;
 }
 
-.scroller:hover {
-  cursor: pointer;
+.footer p,
+.footer a {
+  margin: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+@media (max-width: 576px) {
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .rat {
+    width: 40%;
+  }
 }
