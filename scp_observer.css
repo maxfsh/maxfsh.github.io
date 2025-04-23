@@ -1,6 +1,6 @@
 @font-face {
   font-family: "scp_observer";
-  src: url("static/scp_observer.otf") format("opentype");
+  src: url("https://getmyisland.com/static/scp_observer.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -13,7 +13,7 @@
   position: relative;
   z-index: 1;
   padding: 1.5rem;
-  background-image: url("static/scp_observer.gif");
+  background-image: url("https://getmyisland.com/static/scp_observer.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
