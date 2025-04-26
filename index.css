@@ -1,20 +1,9 @@
-.header {
-  display: flex;
-  min-height: 100dvh;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
-  padding: 1.5rem;
+.page a {
+  color: black;
 }
 
-.inner-header {
-  text-align: center;
-}
-
-.inner-header h1 {
-  margin-top: 0;
-  margin-bottom: 10px;
+.page a:hover {
+  color: black;
 }
 
 .rat {
@@ -24,31 +13,7 @@
   width: 20%;
 }
 
-.footer {
-  display: inline-block;
-  position: absolute;
-  bottom: 1.5rem;
-}
-
-.footer p,
-.footer a {
-  margin: 0;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
-}
-
 @media (max-width: 576px) {
-  .footer-content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0;
-  }
-
   .rat {
     width: 40%;
   }
