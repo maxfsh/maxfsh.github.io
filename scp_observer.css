@@ -1,12 +1,13 @@
 @font-face {
   font-family: "scp_observer";
-  src: url("https://getmyisland.com/static/scp_observer.otf") format("opentype");
+  src: url("https://maxfsh.github.io/static/scp_observer.otf")
+    format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 .page {
-  background-image: url("https://getmyisland.com/static/scp_observer.gif");
+  background-image: url("https://maxfsh.github.io/static/scp_observer.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

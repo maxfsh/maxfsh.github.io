@@ -1,1 +1,1 @@
-# Repository for getmyisland.com
+# Github Pages
